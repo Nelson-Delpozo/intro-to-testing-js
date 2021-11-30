@@ -34,14 +34,31 @@ function isEven(input){
 /////////////////////////////////
 
 function isVowel(s) {
-    return s === "a" || s === "A" || s === "e" || s === "E" || s === "i" || s === "I" ||
-        s === "o" || s === "O" || s === "u" || s === "U";
+if(typeof s === "string"){
+   return s.toLowerCase() === ("a" || "e" || "i" || "o" || "u");
+}else return false
 }
+
+
+
+//Cody's//
+// function isVowel(input){
+// if (typeof input === 'string') {
+//     return input.toLowerCase() === 'a'
+//         || input.toLowerCase() === 'e'
+//         || input.toLowerCase() === 'i'
+//         || input.toLowerCase() === 'o'
+//         || input.toLowerCase() === 'u'
+// } else {
+//     return false;
+// }
+// }
 
 
 
 
 ////////////////////////////////////////
+//
 
 
 
