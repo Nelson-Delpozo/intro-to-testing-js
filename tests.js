@@ -134,6 +134,28 @@ describe('isVowel', function() {
 
 
 
+describe('add', function() {
+    it('should be a defined function', function () {
+        expect(typeof add).toBe('function')
+    });
+    it('should return a 5 when passed 2 and 3', function () {
+        expect(add(2, 3)).toBe(5);
+    });
+    it('should return a NaN when passed "banana" and "apple"', function () {
+        expect(add("banana", "apple")).toEqual(NaN);
+    });
+    it('should return a number when called', function () {
+        expect(typeof add()).toBe("number")
+    });
+    it('should return a NaN when passed "3" and "apple"', function () {
+        expect(add("3", "apple")).toEqual(NaN);
+    });
+});
+
+
+
+
+
 
 
 
