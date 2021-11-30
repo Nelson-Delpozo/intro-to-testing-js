@@ -2,7 +2,8 @@
 function helloWorld() {
     return "Hello, World!";
 }
-
+/////////////////////////////
+//sayHello function//
 function sayHello(input){
     if(typeof(input) === "undefined"){
         return "Hello, World!"
@@ -13,13 +14,15 @@ function sayHello(input){
     } else return `Hello, ${input}!`;
 }
 
-
-
-
+////////////////////////////
+//isFive function//
 
 function isFive(input){
     return parseInt(input) === 5;
 }
+
+////////////////////////////
+//isEven function//
 
 function isEven(input){
     if(isNaN(parseInt(input))){
@@ -29,6 +32,20 @@ function isEven(input){
 }
 
 /////////////////////////////////
+
+function isVowel(s) {
+    return s === "a" || s === "A" || s === "e" || s === "E" || s === "i" || s === "I" ||
+        s === "o" || s === "O" || s === "u" || s === "U";
+}
+
+
+
+
+////////////////////////////////////////
+
+
+
+
 
 
 
